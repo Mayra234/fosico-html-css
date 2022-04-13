@@ -1,0 +1,97 @@
+@font-face {
+  font-family: "old";
+  src: url("libs/fonts/im-fell-double-pica/IMFellDoublePica-Regular.ttf");
+}
+@font-face {
+  font-family: "dongle";
+  src: url("libs/fonts/dongle/Dongle-Regular.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+p {
+  margin: 0;
+}
+
+body {
+  display: grid;
+  grid-template-rows: 100vh 1fr 100vh 1fr 1fr 1fr;
+}
+
+.main-section {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.nav-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-section > div {
+  width: 100%;
+  max-width: 1280px;
+  background-color: #efaea6;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-section > div > div:nth-child(2) > a {
+  padding-left: 17px;
+}
+
+.main-section > div:nth-child(2) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.main-section > div:nth-child(2) > div {
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+}
+
+.main-section > div:nth-child(2) > div > p {
+  margin-bottom: 17px;
+  font-size: 40px;
+}
+
+.products-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 100vh);
+  border: 1px solid blue;
+}
+
+.products-section > div {
+  border: 1px solid black;
+}
+
+.featured-section {
+  background-color: #f3efed;
+}
+
+.get-started-section {
+  background-color: #efaea6;
+}
+
+.follow-us-section {
+  background-color: #f3efed;
+}
+
+.footer-section {
+  background-color: #c0c0c0;
+}
