@@ -30,6 +30,7 @@ img {
 body {
   display: grid;
   grid-template-rows: 100vh 1fr 1fr 1fr 1fr 1fr;
+  font-family: "old";
 }
 
 .main-section {
@@ -38,6 +39,7 @@ body {
   background-image: url("img/fondo.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
+  color: white;
 }
 
 .nav-section {
@@ -60,6 +62,7 @@ body {
 
 .nav-section > div > div:nth-child(2) > a {
   padding-left: 17px;
+  font-family: "dongle";
 }
 
 .main-section > div:nth-child(2) {
@@ -80,18 +83,24 @@ body {
   font-size: 40px;
 }
 
+.main-section > div:nth-child(2) > div > a {
+  font-family: "dongle";
+}
+
 .main-section > div:nth-child(3) {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 10px;
+  font-size: 17px;
   padding: 15px 0;
+  font-family: "dongle";
 }
 
 .products-section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(4, 100vh);
+  color: white;
 }
 
 .products-section > div:nth-child(2),
@@ -186,6 +195,7 @@ body {
 
 .get-started-section > div > a {
   color: white;
+  font-family: "dongle";
 }
 
 .follow-us-section {
@@ -201,6 +211,10 @@ body {
   display: grid;
   grid-template-rows: auto 1fr;
   gap: 25px;
+}
+
+.follow-us-section > div > div:nth-child(1) {
+  font-family: "dongle";
 }
 
 .follow-us-section > div > div:nth-child(2) {
@@ -275,19 +289,23 @@ body {
 }
 
 .footer-section > div {
+  width: 100%;
+  max-width: 800px;
   display: grid;
   grid-template-columns: auto 1fr;
 }
 
 .footer-section > div > div:nth-child(1) > p {
   font-size: 40px;
-  padding: 50px;
+  padding: 25px;
 }
 
 .footer-section > div > div:nth-child(2) {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  padding: 50px;
+  padding: 25px;
+  font-family: "dongle";
+  font-size: 20px;
 }
 
 .footer-section > div > div:nth-child(2) > div {
