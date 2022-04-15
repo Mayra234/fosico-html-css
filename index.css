@@ -75,6 +75,7 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
+  line-height: 40px;
 }
 
 .main-section > div:nth-child(2) > div {
@@ -117,6 +118,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  line-height: 40px;
 }
 
 .products-section > div:nth-child(1) {
@@ -173,7 +175,7 @@ body {
 .products-section div:nth-child(6) > p:nth-child(2),
 .products-section div:nth-child(7) > p:nth-child(2) {
   font-size: 40px;
-  padding: 0px 25px;
+  padding: 0 25px;
 }
 
 .featured-section {
@@ -212,7 +214,8 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 60px;
+  padding: 90px 0;
+  line-height: 40px;
 }
 
 .get-started-section > div {
@@ -386,6 +389,7 @@ body {
   padding: 25px;
   font-family: "dongle";
   font-size: 20px;
+  line-height: 15px;
 }
 
 .footer-section > div > div:nth-child(2) > div {
