@@ -96,7 +96,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 17px;
+  font-size: 20px;
+  letter-spacing: 5px;
   padding: 15px 0;
   font-family: "dongle";
 }
@@ -200,6 +201,8 @@ body {
   grid-template-rows: 1fr 1fr;
   grid-template-columns: repeat(4, 1fr);
   padding: 90px;
+  width: 100%;
+  max-width: 800px;
 }
 
 .get-started-section {
@@ -242,6 +245,9 @@ body {
   display: grid;
   grid-template-rows: auto 1fr;
   gap: 25px;
+  padding: 40px;
+  width: 100%;
+  max-width: 800px;
 }
 
 .follow-us-section > div > div:nth-child(1) {
