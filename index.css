@@ -275,7 +275,7 @@ body {
 }
 
 .follow-us-section > div > div:nth-child(2) > div:nth-child(2) {
-  padding: 5px 0;
+  padding: 5px 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -315,7 +315,7 @@ body {
   > div:nth-child(2)
   > div:nth-child(2)
   > p:nth-child(2) {
-  font-size: 13px;
+  font-size: 10px;
 }
 
 .follow-us-section
@@ -328,7 +328,7 @@ body {
 
 .follow-us-section > div > div:nth-child(2) > div:nth-child(6) {
   background: #efaea6;
-  padding: 5px 0;
+  padding: 5px 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
