@@ -175,7 +175,7 @@ body {
 .products-section div:nth-child(6) > p:nth-child(2),
 .products-section div:nth-child(7) > p:nth-child(2) {
   font-size: 40px;
-  padding: 0 25px;
+  padding: 15px 25px;
 }
 
 .featured-section {
