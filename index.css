@@ -170,12 +170,18 @@ body {
   max-width: 400px;
 }
 
+.products-section > div:nth-child(2) > p:nth-child(1),
+.products-section div:nth-child(3) > p:nth-child(1),
+.products-section div:nth-child(6) > p:nth-child(1),
+.products-section div:nth-child(7) > p:nth-child(1) {
+  padding: 15px;
+}
+
 .products-section > div:nth-child(2) > p:nth-child(2),
 .products-section div:nth-child(3) > p:nth-child(2),
 .products-section div:nth-child(6) > p:nth-child(2),
 .products-section div:nth-child(7) > p:nth-child(2) {
   font-size: 40px;
-  padding: 15px 25px;
 }
 
 .featured-section {
